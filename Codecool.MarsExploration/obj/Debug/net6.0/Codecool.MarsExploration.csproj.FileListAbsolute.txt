@@ -1,0 +1,15 @@
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/bin/Debug/net6.0/Codecool.MarsExploration
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/bin/Debug/net6.0/Codecool.MarsExploration.deps.json
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/bin/Debug/net6.0/Codecool.MarsExploration.runtimeconfig.json
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/bin/Debug/net6.0/Codecool.MarsExploration.dll
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/bin/Debug/net6.0/Codecool.MarsExploration.pdb
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.csproj.AssemblyReference.cache
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.GeneratedMSBuildEditorConfig.editorconfig
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.AssemblyInfoInputs.cache
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.AssemblyInfo.cs
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.csproj.CoreCompileInputs.cache
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.dll
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/refint/Codecool.MarsExploration.dll
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.pdb
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.genruntimeconfig.cache
+/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/ref/Codecool.MarsExploration.dll
