@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/maria/.nuget/packages/": {}
+    "C:\\Users\\iully\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/Codecool.MarsExploration.csproj",
+      "projectUniqueName": "D:\\ProiecteCodecool\\OOP C# Projects\\mars-exploration-1-csharp-RoxanaCristinaMarin\\Codecool.MarsExploration\\Codecool.MarsExploration.csproj",
       "projectName": "Codecool.MarsExploration",
-      "projectPath": "/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/Codecool.MarsExploration.csproj",
-      "packagesPath": "/home/maria/.nuget/packages/",
-      "outputPath": "/home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/",
+      "projectPath": "D:\\ProiecteCodecool\\OOP C# Projects\\mars-exploration-1-csharp-RoxanaCristinaMarin\\Codecool.MarsExploration\\Codecool.MarsExploration.csproj",
+      "packagesPath": "C:\\Users\\iully\\.nuget\\packages\\",
+      "outputPath": "D:\\ProiecteCodecool\\OOP C# Projects\\mars-exploration-1-csharp-RoxanaCristinaMarin\\Codecool.MarsExploration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/maria/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\iully\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/maria/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
