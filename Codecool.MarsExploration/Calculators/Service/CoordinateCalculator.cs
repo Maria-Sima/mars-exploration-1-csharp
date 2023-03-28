@@ -26,7 +26,7 @@ public class CoordinateCalculator : ICoordinateCalculator
             for (int j = y - 1; j <= y + 1; j++)
             {
                 Coordinate coord = new Coordinate(i, j);
-                if (coord!=coordinate && j<dimension && i<dimension && i>=0 && j>=0  )
+                if (coord != coordinate && j < dimension && i < dimension && i >= 0 && j >= 0  )
                 {
                     adjacentCoordinates.Add(new Coordinate(i, j));
                 }

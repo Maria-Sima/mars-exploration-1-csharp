@@ -1,6 +1,9 @@
-﻿using Codecool.MarsExploration.Calculators.Service;
+﻿using System.Text.RegularExpressions;
+using System.Threading.Channels;
+using Codecool.MarsExploration.Calculators.Service;
 using Codecool.MarsExploration.Configuration.Model;
 using Codecool.MarsExploration.Configuration.Service;
+using Codecool.MarsExploration.MapElements.Model;
 using Codecool.MarsExploration.MapElements.Service.Builder;
 using Codecool.MarsExploration.MapElements.Service.Generator;
 using Codecool.MarsExploration.MapElements.Service.Placer;
@@ -19,7 +22,9 @@ internal class Program
         IDimensionCalculator dimensionCalculator = null;
         ICoordinateCalculator coordinateCalculator = null;
 
-        IMapElementBuilder mapElementFactory = null;
+        IMapElementBuilder mapElementFactory = new MapElementBuilder();
+        var mountain = mapElementFactory.Build(20, "#", "mountain", 3);
+        Console.WriteLine(String.Join("",mountain.Representation));
         IMapElementsGenerator mapElementsGenerator = null;
 
         IMapConfigurationValidator mapConfigValidator = null;
