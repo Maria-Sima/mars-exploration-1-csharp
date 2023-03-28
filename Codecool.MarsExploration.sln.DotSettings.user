@@ -9,15 +9,15 @@
     &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.CoordinateCalculatorTest.TheCoordinateCalculatorTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6db0a4bd_002D73b5_002D4316_002Dbcca_002D0cce00660c6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Or&gt;
-    &lt;ProjectFile&gt;2C94306D-29D2-4A2D-A368-B9C19F3DDADC/f:MapConfigurationValidatorTest.cs&lt;/ProjectFile&gt;
-    &lt;TestAncestor&gt;
-      &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.DimensionCalculatorTest.CalculateDimensionTest&lt;/TestId&gt;
-      &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.DimensionCalculatorTest.CalculateDimensionTestEdge&lt;/TestId&gt;
-      &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.CoordinateCalculatorTest+CoordinateTests&lt;/TestId&gt;
-    &lt;/TestAncestor&gt;
-  &lt;/Or&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6db0a4bd_002D73b5_002D4316_002Dbcca_002D0cce00660c6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;2C94306D-29D2-4A2D-A368-B9C19F3DDADC/f:MapConfigurationValidatorTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.DimensionCalculatorTest.CalculateDimensionTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.DimensionCalculatorTest.CalculateDimensionTestEdge&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.CoordinateCalculatorTest+CoordinateTests&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bbf911bd_002D4d0c_002D4e5a_002Db48a_002D647527208a86/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TheCoordinateCalculatorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;

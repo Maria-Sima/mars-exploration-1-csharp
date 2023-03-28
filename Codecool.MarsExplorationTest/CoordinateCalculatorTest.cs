@@ -178,10 +178,10 @@ public class CoordinateCalculatorTest
         
         var coordinatesCalculator = new CoordinateCalculator();
        
-        var adjacentCoordinates = coordinatesCalculator.GetAdjacentCoordinates(coordinates,dimension);
+        List<Coordinate> adjacentCoordinates = coordinatesCalculator.GetAdjacentCoordinates(coordinates,dimension).ToList();
 
         
-        CollectionAssert.IsEmpty(adjacentCoordinates);
+        Assert.That(adjacentCoordinates.Count(), Is.EqualTo(12));
     }
 }
     }
