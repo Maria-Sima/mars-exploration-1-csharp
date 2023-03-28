@@ -13,6 +13,8 @@ public class CoordinateCalculator : ICoordinateCalculator
 
         return new Coordinate(xCoordinate, yCoordinate);
     }
+    
+
 
     public IEnumerable<Coordinate> GetNeighbouringCoordinates(Coordinate coordinate, int dimension)
     {
@@ -35,13 +37,11 @@ public class CoordinateCalculator : ICoordinateCalculator
         return adjacentCoordinates;
     }
 
-    public IEnumerable<Coordinate> GetAdjacentCoordinates(IEnumerable<Coordinate> coordinates, int dimension)
+    public IEnumerable<Coordinate> GetAdjacentCoordinates(IEnumerable<Coordinate> coordinates,
+        int dimension)
     {
        
-        foreach (var coordinate in coordinates)
-        {
-            GetNeighbouringCoordinates(coordinate, dimension);
-        }
+        return coordinates.SelectMany(coordinate => GetNeighbouringCoordinates(coordinate, dimension));
 
         
     }
