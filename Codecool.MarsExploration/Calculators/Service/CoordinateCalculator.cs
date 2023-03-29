@@ -16,7 +16,7 @@ public class CoordinateCalculator : ICoordinateCalculator
     
 
 
-    public IEnumerable<Coordinate> GetNeighbouringCoordinates(Coordinate coordinate, int dimension)
+    public IEnumerable<Coordinate> GetAdjacentCoordinates(Coordinate coordinate, int dimension)
     {
         int x = coordinate.X;
         int y = coordinate.Y;
@@ -41,7 +41,7 @@ public class CoordinateCalculator : ICoordinateCalculator
         int dimension)
     {
        
-        return coordinates.SelectMany(coordinate => GetNeighbouringCoordinates(coordinate, dimension));
+        return coordinates.SelectMany(coordinate => GetAdjacentCoordinates(coordinate, dimension));
 
         
     }

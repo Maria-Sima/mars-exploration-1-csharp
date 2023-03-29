@@ -28,7 +28,7 @@ public class CoordinateCalculatorTest
             };
             var coordinateCalculator = new CoordinateCalculator();
             
-            IEnumerable<Coordinate> actual = coordinateCalculator.GetNeighbouringCoordinates(coordinate,dimension);
+            IEnumerable<Coordinate> actual = coordinateCalculator.GetAdjacentCoordinates(coordinate,dimension);
 
             
             CollectionAssert.AreEquivalent(expected, actual);
@@ -41,7 +41,7 @@ public class CoordinateCalculatorTest
             Coordinate coordinate = new Coordinate(1, 1);
             int dimension = 3;
             var coordinateCalculator = new CoordinateCalculator();
-            IEnumerable<Coordinate> actual = coordinateCalculator.GetNeighbouringCoordinates(coordinate,dimension);
+            IEnumerable<Coordinate> actual = coordinateCalculator.GetAdjacentCoordinates(coordinate,dimension);
 
             Assert.IsFalse(actual.Contains(coordinate));
         }
@@ -60,7 +60,7 @@ public class CoordinateCalculatorTest
             };
             var coordinateCalculator = new CoordinateCalculator();
             
-            IEnumerable<Coordinate> actual = coordinateCalculator.GetNeighbouringCoordinates(coordinate,dimension);
+            IEnumerable<Coordinate> actual = coordinateCalculator.GetAdjacentCoordinates(coordinate,dimension);
 
             
             CollectionAssert.AreEquivalent(expected, actual);
@@ -80,7 +80,7 @@ public class CoordinateCalculatorTest
             };
             var coordinateCalculator = new CoordinateCalculator();
             
-            IEnumerable<Coordinate> actual = coordinateCalculator.GetNeighbouringCoordinates(coordinate,dimension);
+            IEnumerable<Coordinate> actual = coordinateCalculator.GetAdjacentCoordinates(coordinate,dimension);
 
             
             CollectionAssert.AreEquivalent(expected, actual);
