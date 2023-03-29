@@ -11,16 +11,14 @@ public record Map(string?[,] Representation, bool SuccessfullyGenerated = false)
         int maxJ = arr.GetLength(1);
         for (int i = 0; i < maxI; i++)
         {
-            sb.Append(",{");
             for (var j = 0; j < maxJ; j++)
             {
-                sb.Append($"{arr[i, j]},");
+                sb.Append($"{arr[i, j]}");
             }
 
-            sb.Append("}");
+            sb.Append("\n");
         }
 
-        sb.Replace(",}", "}").Remove(0, 1);
         string result = sb.ToString();
         return result;
     }

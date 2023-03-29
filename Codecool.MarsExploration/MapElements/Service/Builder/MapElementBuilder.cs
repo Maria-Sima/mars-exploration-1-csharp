@@ -35,7 +35,6 @@ public class MapElementBuilder : IMapElementBuilder
 		}
 
 		MapElement mapElement = new MapElement(element, name, elementSize);
-
 		return mapElement;
 	}
 }

@@ -207,9 +207,6 @@ D:/ProiecteCodecool/OOP C# Projects/mars-exploration-1-csharp-RoxanaCristinaMari
 /home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExplorationTest/obj/Debug/net6.0/Codecool.MarsExplorationTest.pdb
 /home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExplorationTest/obj/Debug/net6.0/Codecool.MarsExplorationTest.genruntimeconfig.cache
 /home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExplorationTest/obj/Debug/net6.0/ref/Codecool.MarsExplorationTest.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\refint\Codecool.MarsExplorationTest.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.pdb
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\bin\Debug\net6.0\CoverletSourceRootsMapping
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\bin\Debug\net6.0\testhost.exe
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\bin\Debug\net6.0\testhost.dll
@@ -310,5 +307,8 @@ D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMari
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.AssemblyInfo.cs
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.csproj.CoreCompileInputs.cache
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.csproj.CopyComplete
+D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.dll
+D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\refint\Codecool.MarsExplorationTest.dll
+D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.pdb
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\Codecool.MarsExplorationTest.genruntimeconfig.cache
 D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExplorationTest\obj\Debug\net6.0\ref\Codecool.MarsExplorationTest.dll
