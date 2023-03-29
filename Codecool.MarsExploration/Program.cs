@@ -24,7 +24,7 @@ internal class Program
 
         IMapElementBuilder mapElementFactory = new MapElementBuilder();
         var mountain = mapElementFactory.Build(20, "#", "mountain", 3);
-        Console.WriteLine(String.Join("",mountain.Representation));
+        Console.WriteLine(String.Join("", mountain.Representation));
         IMapElementsGenerator mapElementsGenerator = null;
 
         IMapConfigurationValidator mapConfigValidator = null;
@@ -54,18 +54,18 @@ internal class Program
             new ElementToDimension(2, 20),
             new ElementToDimension(1, 30),
         }, 3);
-        
+
         var pitsCfg = new MapElementConfiguration(pitSymbol, "pit", new[]
         {
             new ElementToDimension(3, 20),
             new ElementToDimension(1, 15),
         }, 10);
-        
+
         var mineralsCfg = new MapElementConfiguration(mineralSymbol, "mineral", new[]
         {
             new ElementToDimension(5, 1),
         }, 0);
-        
+
         var watersCfg = new MapElementConfiguration(waterSymbol, "water", new[]
         {
             new ElementToDimension(6, 1),
@@ -74,6 +74,7 @@ internal class Program
         List<MapElementConfiguration> elementsCfg = new() { mountainsCfg, pitsCfg, mineralsCfg, watersCfg };
         return new MapConfiguration(1000, 0.5, elementsCfg);
     }
+}
 
   
 

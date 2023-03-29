@@ -4,9 +4,19 @@
     &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.CoordinateCalculatorTest.TheCoordinateCalculatorTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=32f88f10_002D1c5c_002D4cd0_002D95e8_002D7922fbc55445/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MapElementBuilderTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::MapElementBuilderTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=548daeef_002Dd0a2_002D4739_002D9297_002Dd3a984cd71a4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TheCoordinateCalculatorTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.CoordinateCalculatorTest.TheCoordinateCalculatorTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=55f78b8a_002Dbd1c_002D4dea_002D95ec_002Dcc82796dc630/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="BuildTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::MapElementBuilderTests.BuildTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6db0a4bd_002D73b5_002D4316_002Dbcca_002D0cce00660c6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
@@ -22,5 +32,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bbf911bd_002D4d0c_002D4e5a_002Db48a_002D647527208a86/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TheCoordinateCalculatorTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::Codecool.MarsExplorationTest.CoordinateCalculatorTest+CoordinateTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::2C94306D-29D2-4A2D-A368-B9C19F3DDADC::net6.0::MapElementBuilderTests.BuildTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
