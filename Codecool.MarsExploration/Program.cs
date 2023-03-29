@@ -29,14 +29,14 @@ internal class Program
         var genmap = mapElementsGenerator.CreateAll(mapConfig);
         foreach (var item in genmap)
         {
-            Console.WriteLine(item);
+            
         }
         IMapConfigurationValidator mapConfigValidator = new MapConfigurationValidator();
         IMapElementPlacer mapElementPlacer = new MapElementPlacer();
 
         IMapGenerator mapGenerator = new MapGenerator();
         var map = mapGenerator.Generate(mapConfig);
-        Console.WriteLine(map);
+        
 
         CreateAndWriteMaps(3, mapGenerator, mapConfig);
 

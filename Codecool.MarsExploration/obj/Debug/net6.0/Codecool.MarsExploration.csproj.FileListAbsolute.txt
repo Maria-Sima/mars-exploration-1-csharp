@@ -28,18 +28,3 @@ D:/ProiecteCodecool/OOP C# Projects/mars-exploration-1-csharp-RoxanaCristinaMari
 /home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.pdb
 /home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/Codecool.MarsExploration.genruntimeconfig.cache
 /home/maria/CodeCool/mars-exploration-1-csharp-RoxanaCristinaMarin/Codecool.MarsExploration/obj/Debug/net6.0/ref/Codecool.MarsExploration.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\bin\Debug\net6.0\Codecool.MarsExploration.exe
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\bin\Debug\net6.0\Codecool.MarsExploration.deps.json
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\bin\Debug\net6.0\Codecool.MarsExploration.runtimeconfig.json
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\bin\Debug\net6.0\Codecool.MarsExploration.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\bin\Debug\net6.0\Codecool.MarsExploration.pdb
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.csproj.AssemblyReference.cache
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.GeneratedMSBuildEditorConfig.editorconfig
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.AssemblyInfoInputs.cache
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.AssemblyInfo.cs
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.csproj.CoreCompileInputs.cache
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\refint\Codecool.MarsExploration.dll
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.pdb
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\Codecool.MarsExploration.genruntimeconfig.cache
-D:\ProiecteCodecool\OOP C# Projects\mars-exploration-1-csharp-RoxanaCristinaMarin\Codecool.MarsExploration\obj\Debug\net6.0\ref\Codecool.MarsExploration.dll

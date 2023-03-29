@@ -9,11 +9,11 @@ public class MapElementPlacer : IMapElementPlacer
 	public bool CanPlaceElement(MapElement element, string?[,] map, Coordinate coordinate)
 	{
 		if (map[coordinate.X, coordinate.Y] != " ") return false;
-		Map map2 = new Map(map);
-		Console.WriteLine(map2);
-		for (int i = coordinate.X; i < element.Dimension; i++)
+	
+		
+		for (int i = coordinate.X; i < element.Dimension+coordinate.X; i++)
 		{
-			for (int j = coordinate.Y; j < element.Dimension; j++)
+			for (int j = coordinate.Y; j < element.Dimension+coordinate.Y; j++)
 			{
 				if (map[i, j] != " ")
 				{
@@ -30,10 +30,10 @@ public class MapElementPlacer : IMapElementPlacer
 	{
 		int elementI = 0;
 
-		for (int i = coordinate.X; i < element.Dimension; i++)
+		for (int i = coordinate.X; i < element.Dimension+coordinate.X; i++)
 		{
 			int elementJ = 0;
-			for (int j = coordinate.Y; j < element.Dimension; j++)
+			for (int j = coordinate.Y; j < element.Dimension+coordinate.Y; j++)
 			{
 				map[i, j] = element.Representation[elementI, elementJ];
 				elementJ++;
