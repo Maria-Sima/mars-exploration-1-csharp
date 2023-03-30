@@ -27,15 +27,26 @@ internal class Program
         // Console.WriteLine(String.Join("", mountain));
         IMapElementsGenerator mapElementsGenerator = new MapElementGenerator(mapElementFactory);
         var genmap = mapElementsGenerator.CreateAll(mapConfig);
-        foreach (var item in genmap)
-        {
-            
-        }
+        // foreach (var gen in genmap)
+        // {
+        //     Console.WriteLine(gen);
+        // }
+    
         IMapConfigurationValidator mapConfigValidator = new MapConfigurationValidator();
         IMapElementPlacer mapElementPlacer = new MapElementPlacer();
 
         IMapGenerator mapGenerator = new MapGenerator();
         var map = mapGenerator.Generate(mapConfig);
+
+        for (int i = 0; i < mapConfig.MapSize; i++)
+        {
+            for (int j = 0; j < mapConfig.MapSize; j++)
+            {
+                Console.Write(map.Representation[i, j]);
+            }
+        
+            Console.WriteLine();
+        }
         
 
         CreateAndWriteMaps(3, mapGenerator, mapConfig);
@@ -69,16 +80,16 @@ internal class Program
 
         var mineralsCfg = new MapElementConfiguration(mineralSymbol, "mineral", new[]
         {
-            new ElementToDimension(5, 1),
+            new ElementToDimension(11, 1),
         }, 0);
 
         var watersCfg = new MapElementConfiguration(waterSymbol, "water", new[]
         {
-            new ElementToDimension(6, 1),
+            new ElementToDimension(20, 1),
         }, 0);
 
         List<MapElementConfiguration> elementsCfg = new() { mountainsCfg, pitsCfg, mineralsCfg, watersCfg };
-        return new MapConfiguration(20, 0.5, elementsCfg);
+        return new MapConfiguration(30, 0.5, elementsCfg);
     }
 }
 

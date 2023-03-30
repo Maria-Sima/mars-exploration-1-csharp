@@ -1,3 +1,4 @@
+using Codecool.MarsExploration.Calculators.Model;
 using Codecool.MarsExploration.Calculators.Service;
 using Codecool.MarsExploration.Configuration.Model;
 using Codecool.MarsExploration.MapElements.Model;
@@ -17,7 +18,7 @@ public class MapGenerator : IMapGenerator
 
 		var elements = mapElementsGenerator.CreateAll(mapConfig);
 		string[,] representation = new string[mapConfig.MapSize, mapConfig.MapSize];
-		Console.WriteLine($"elements {elements.Count()}");
+		
 
 		for (int i = 0; i < mapConfig.MapSize; i++)
 		{
@@ -29,19 +30,22 @@ public class MapGenerator : IMapGenerator
 
 		foreach (var element in elements)
 		{
+			int n = 0;
 			for (int i = 0; i < 50; i++)
 			{
 				var coordinate = coordinateCalculator.GetRandomCoordinate(mapConfig.MapSize);
+				
+				
 				if (!mapElementPlacer.CanPlaceElement(element, representation, coordinate))
 				{
-					Console.WriteLine(1);
+					
 					coordinate = coordinateCalculator.GetRandomCoordinate(mapConfig.MapSize);
 				}
 				else
 				{
-					Console.WriteLine($"x {coordinate.X}");
-					Console.WriteLine($"y {coordinate.Y}");
-					representation = mapElementPlacer.PlaceElement(element, representation, coordinate);
+					n++;
+					
+					mapElementPlacer.PlaceElement(element,representation,coordinate);
 					break;
 				}
 			}

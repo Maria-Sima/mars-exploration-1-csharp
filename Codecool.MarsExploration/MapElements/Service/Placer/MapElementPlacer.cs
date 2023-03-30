@@ -8,16 +8,17 @@ public class MapElementPlacer : IMapElementPlacer
 {
 	public bool CanPlaceElement(MapElement element, string?[,] map, Coordinate coordinate)
 	{
-		if (map[coordinate.X, coordinate.Y] != " ") return false;
-	
+		int maxX = coordinate.X + element.Dimension;
+		int maxY = coordinate.Y + element.Dimension;
 		
-		for (int i = coordinate.X; i < element.Dimension+coordinate.X; i++)
+		if (maxX > map.GetLength(0) || maxY > map.GetLength(1)) return false;
+		for (int i = coordinate.X; i < maxX; i++)
 		{
-			for (int j = coordinate.Y; j < element.Dimension+coordinate.Y; j++)
+			for (int j = coordinate.Y; j < maxY; j++)
 			{
 				if (map[i, j] != " ")
 				{
-					Console.WriteLine(1);
+					//Console.WriteLine("over");
 					return false;
 				}
 			}
@@ -26,12 +27,13 @@ public class MapElementPlacer : IMapElementPlacer
 		return true;
 	}
 
-	public string[,] PlaceElement(MapElement element, string?[,] map, Coordinate coordinate)
+	public void PlaceElement(MapElement element, string?[,] map, Coordinate coordinate)
 	{
+		//Console.WriteLine(coordinate.X + " " + element.Dimension);
 		int elementI = 0;
-
 		for (int i = coordinate.X; i < element.Dimension+coordinate.X; i++)
 		{
+			
 			int elementJ = 0;
 			for (int j = coordinate.Y; j < element.Dimension+coordinate.Y; j++)
 			{
@@ -41,7 +43,6 @@ public class MapElementPlacer : IMapElementPlacer
 
 			elementI++;
 		}
-
-		return map;
 	}
 }
+
